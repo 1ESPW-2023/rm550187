@@ -11,7 +11,21 @@
 .container{
     display: flex;
     justify-content: space-between;
-    
     width: 100%;
     height: 60vh;
+}
+
+.conteudo{
+    flex-grow: 5;
+    background-color: blueviolet;
+}
+
+.l-e{
+    flex-grow: 5;
+    background-color: gold;
+}
+
+.l-d{
+    flex-grow: 5;
+    background-color: crimson;
 }
